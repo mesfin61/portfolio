@@ -9,11 +9,13 @@ function Home() {
         <p>
           I am <span>mesfin ayele</span> a passionate and detail-oriented web
           developer with a strong focus on building clean, efficient, and
-          user-friendly applications. With a solid foundation in modern web
-          technologies and a constant drive to learn, I enjoy turning ideas into
-          functional solutions that create real impact. Beyond coding, I value
+          user-friendly applications. With a solid foundationing, I value
           collaboration, problem-solving, and continuous growth to deliver
-          meaningful results.
+          meaningful results. in modern web technologies and a constant drive to
+          learn, I enjoy turning ideas into functional solutions that create
+          real impact. Beyond coding, I am always eager to explore new
+          technologies, share knowledge, and contribute to projects that make a
+          difference.
         </p>
       </div>
       <div className="image">
