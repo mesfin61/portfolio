@@ -6,8 +6,18 @@ function Projects() {
   return (
     <div className="projects-container">
       <div className="projects-button">
-        <NavLink to={"/projects/Frontend"}>Frontend</NavLink>
-        <NavLink to={"/projects/Fullstack"}>Fullstack</NavLink>
+        <NavLink
+          to={"/projects/Frontend"}
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
+          Frontend
+        </NavLink>
+        <NavLink
+          to={"/projects/Fullstack"}
+          className={({ isActive }) => (isActive ? "active-link" : "")}
+        >
+          Fullstack
+        </NavLink>
       </div>
       <div className="projects-content">
         <Outlet />

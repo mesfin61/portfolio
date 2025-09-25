@@ -2,6 +2,7 @@ import portfolioImg from "../../assets/image/mesfin-portfolio.vercel.app_ (1).pn
 import carImg from "../../assets/image/auto-elite.vercel.app_.png";
 import moviesImg from "../../assets/image/movieshub-tan.vercel.app_.png";
 import weatherImg from "../../assets/image/prodigy-wd-05-ten-theta.vercel.app_.png";
+import { FaGithub } from "react-icons/fa";
 
 const projects = [
   {
@@ -61,7 +62,7 @@ function Frontend() {
               </a>
 
               <a href={project.github} className="project-repo">
-                view github
+                <FaGithub />
               </a>
             </div>
           </div>
